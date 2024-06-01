@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function () {
     //   },
       autoplay: {
         delay: 5000,
-        disableOnInteraction: false,
       },
       speed: 2000,
       effect: 'fade',
@@ -25,3 +24,4 @@ document.addEventListener('DOMContentLoaded', function () {
        },
     });
   });
+
