@@ -612,12 +612,55 @@ video {
 /* swiper  */
 
 
-/* footer */
+/* contact us  */
 
+
+.containerc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.centered-section {
+    background-color: #001F4B;
+    width: 40%;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: -70px;
+}
+
+.centered-section p {
+    color: white;
+    font-size: 1.5em;
+    margin: 0 0 20px 0;
+}
+
+.centered-section button {
+    background-color: #F49023; /* Orange color */
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.centered-section button:hover {
+    background-color: #e07b00;
+    color: white;
+}
+
+/* footer */
 .footer {
+    
     background-color: #000;
     color: #fff;
-    padding: 20px 0;
+    padding: 144px 0 20px 0;
 }
 
 .footer-container {
