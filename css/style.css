@@ -457,10 +457,6 @@ body {
     background: transparent no-repeat 50% 50% /cover;
   }
   
-  body {
-    text-align: center;
-  }
-  
   .swiper-slide .slide-01 {
     background-image: url(/images/Main_header_img.png);
     transform-origin: 50% 50%;
@@ -480,57 +476,7 @@ body {
     background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-07-2048.jpg);
     transform-origin: 50% 50%;
   }
-  
-  .swiper-slide .slide-05 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-09-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-06 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-13-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-07 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-08-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-08 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-11-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-09 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-04-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-10 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2019/08/slide-03-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-11 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-06-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-12 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-12-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-13 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-15-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
-  .swiper-slide .slide-14 {
-    background-image: url(https://martin-kovacs.com/wp-content/uploads/2024/02/slide-10-2048.jpg);
-    transform-origin: 50% 50%;
-  }
-  
+
   .swiper-scale-effect .swiper-slide-cover {
     transition-timing-function: linear;
     transition-duration: 20s;
@@ -543,13 +489,13 @@ body {
   
   :root {
     --swiper-pagination-bottom: 40px;
-    --swiper-theme-color: rgba(252, 252, 252, 0.85) !important;
+    --swiper-theme-color: #F49023 !important;
   }
   .swiper-lazy-preloader-white {
-    --swiper-preloader-color: #FCFCFC;
+    --swiper-preloader-color: #F49023;
   }
   .swiper-lazy-preloader-black {
-    --swiper-preloader-color: #262626;
+    --swiper-preloader-color: #F49023;
   }
   .swiper-button-prev,
   .swiper-button-next {
@@ -564,7 +510,11 @@ body {
     opacity: 0.85;
     --swiper-navigation-color: #fcfcfc;
   }
-  .swiper-pagination-bullet {
+  .swiper-pagination-vertical.swiper-pagination-bullets.swiper-pagination-bullets-dynamic, .swiper-vertical>.swiper-pagination-bullets.swiper-pagination-bullets-dynamic{
+    right: 7%;
+    top: 70%;
+  }
+  /* .swiper-pagination-bullet {
     width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px)) !important;
     height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px)) !important;
     box-shadow: inset 1px 1px 1px rgba(38, 38, 38, 0.85);
@@ -577,4 +527,4 @@ body {
     background: var(--swiper-pagination-bullet-active-color, rgba(252, 252, 252, 0.85)) !important;
     opacity: var(--swiper-pagination-bullet-active-opacity, 0.85) !important;
     --swiper-pagination-bullet-horizontal-gap: 10px;
-  }
+  } */
