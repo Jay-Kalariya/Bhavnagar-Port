@@ -61,12 +61,8 @@ body {
 }
 
 .logo {
-    /* color: white; */
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    line-height: 3rem;
+    max-width: 100%;
+
 }
 
 .logo span {
@@ -111,7 +107,6 @@ body {
     line-height: normal;
     color: white;
     padding: 0 .9rem;
-    letter-spacing: 1px;
     font-size: 21px;
     display: flex;
     align-items: center;
@@ -123,15 +118,15 @@ body {
     margin-left: .2rem;
 }
 
-/* .nav-link:hover>a {
-    transform: scale(1.1);
-} */
+.nav-link:hover>a {
+    /* transform: scale(1.01); */
+}
 
 .dropdown {
     position: absolute;
     top: 100%;
-    left: 16px;
-    width: 11rem;
+    left: 0px;
+    width: 12rem;
     transform: translateY(10px);
     opacity: 0;
     pointer-events: none;
@@ -202,7 +197,7 @@ body {
 
 .nav-link:hover>.dropdown,
 .dropdown-link:hover>.dropdown {
-    transform: translate(0.5, 0);
+    transform: translate(0, 0);
     opacity: 1;
     pointer-events: auto;
 }
